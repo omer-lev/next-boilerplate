@@ -4,7 +4,7 @@ import Header from "../../Header"
 
 const Services = () => {
   return (
-    <section id='services' className='min-h-screen bg-primary py-28 px-5'>
+    <section id='services' className='min-h-screen bg-primary pt-36 pb-14 px-5'>
       <Header
         title="Services"
         subtitle='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, corporis.'
