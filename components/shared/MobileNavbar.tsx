@@ -22,7 +22,7 @@ const MobileNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className='w-full flex justify-between items-center px-[7%] py-10 absolute bg-transparent lg:hidden'>
+    <nav className='w-full flex justify-between items-center px-[7%] py-10 absolute top-0 bg-transparent lg:hidden'>
       <Link href='/'>
         {/* ASSET */}
         <Image
@@ -50,7 +50,7 @@ const MobileNavbar = () => {
               />
             </SheetTitle>
 
-            <SheetDescription className='flex flex-col gap-7'>
+            <SheetDescription className='flex flex-col gap-7 items-center'>
               {/* CONSTANTS (nav_links) */}
               {nav_links.map((link, index) => (
                 <Link
@@ -63,7 +63,7 @@ const MobileNavbar = () => {
                 </Link>
               ))}
 
-              <Button asChild className='mt-7'>
+              <Button asChild className='mt-7 w-4/5'>
                 {/* LINK */}
                 <Link href='/#'>
                   Get Started
