@@ -37,7 +37,7 @@ const PlanCard = ({ title, price, description, features, isYearly }: PlanCardPro
           ))}
         </div>
 
-        <Button className='text-base bg-gradient-to-r from-accent to-muted hover:opacity-90 text-primary font-semibold p-6 absolute bottom-7 left-1/2 translate-x-[-50%] hover:bg-muted hover:text-secondary'>
+        <Button className='text-base bg-gradient-to-r from-accent to-muted rounded-2xl hover:opacity-90 text-primary font-semibold p-6 absolute bottom-7 left-1/2 translate-x-[-50%] hover:bg-muted hover:text-secondary'>
           <Link href='/'>
             Get Started!
           </Link>
