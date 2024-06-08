@@ -5,7 +5,7 @@ import Curve from '../Curve';
 
 const Hero = () => {
   return (
-    <section className='h-screen flex flex-col lg:flex-row gap-[10%] py-32 px-7 lg:px-[5%] xl:px-[12%] lg:pt-[20%] xl:pt-[15%] bg-accent'>
+    <section className='h-screen flex flex-col lg:flex-row gap-[10%] py-32 px-7 lg:px-[5%] xl:px-[12%] lg:pt-[20%] xl:pt-[15%] bg-accent overflow-hidden'>
       <div className='header text-center lg:text-start z-50'>
         <h1 className='font-extrabold text-3xl lg:text-4xl pb-5 text-accent-foreground'>
           Your epic <span className='text-muted'>hero</span> component <span className='text-muted'>title</span>
