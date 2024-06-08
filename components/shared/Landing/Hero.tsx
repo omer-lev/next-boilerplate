@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className='h-screen flex flex-col lg:flex-row gap-[10%] 
     py-32 px-7 lg:px-[5%] xl:px-[12%] lg:pt-[20%] xl:pt-[15%] 
-    bg-accent overflow-hidden relative z-[-10] mb-[-1px]'
+    bg-accent overflow-hidden relative mb-[-1px]'
     >
       <div className='header text-center lg:text-start z-50'>
         <h1 className='font-extrabold text-3xl lg:text-4xl pb-5 text-accent-foreground'>

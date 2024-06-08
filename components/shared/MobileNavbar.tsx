@@ -22,7 +22,7 @@ const MobileNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className='w-full flex justify-between items-center px-[7%] py-10 absolute top-0 bg-transparent lg:hidden'>
+    <nav className='w-full flex justify-between items-center px-[7%] py-10 absolute top-0 bg-transparent lg:hidden z-20'>
       <Link href='/'>
         {/* ASSET */}
         <Image
